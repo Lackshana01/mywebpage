@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>GALLERY</title>
+</head>
+<body>
+<header style="background-color:#000000; height: 80px;width: 100%">
+<h1 style="font-size: 30px; color: white;text-align: center; padding-top: 15px;">GALLERY</h1>
+</header>
+<section style="background-color:#404040; width: 100%; border: 1px solid black;">
+<img src="C:\Users\Administrator\Desktop\web development\images\1.jpg" width="400" height="520"  alt="1";>
+<img src="C:\Users\Administrator\Desktop\web development\images\14.jpg" width="400" height="520"  alt="14";>
+<img src="C:\Users\Administrator\Desktop\web development\images\13.jpg" width="400" height="520"  alt="13";>
+<img src="C:\Users\Administrator\Desktop\web development\images\4.jpg" width="270" height="520"  alt="4";>
+<img src="C:\Users\Administrator\Desktop\web development\images\5.jpg" width="400" height="520"  alt="5";>
+<img src="C:\Users\Administrator\Desktop\web development\images\6.jpg" width="270" height="520"  alt="6";>
+<img src="C:\Users\Administrator\Desktop\web development\images\15.jpg" width="400" height="520"  alt="15";>
+<img src="C:\Users\Administrator\Desktop\web development\images\8.jpg" width="400" height="520"  alt="8";>
+<img src="C:\Users\Administrator\Desktop\web development\images\9.jpg" width="400" height="520"  alt="9";>
+<img src="C:\Users\Administrator\Desktop\web development\images\10.jpg" width="400" height="520"  alt="10";>
+<img src="C:\Users\Administrator\Desktop\web development\images\11.jpg" width="400" height="520"  alt="11";>
+<img src="C:\Users\Administrator\Desktop\web development\images\12.jpg" width="270" height="520"  alt="12";>
+</section>
+ <title>Bootstrap Pager Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+    
+</head>  
+<body>  
+  
+<div class="container">                
+  <ul class="pager">  
+    <li><a href="">Previous</a></li>  
+    <li><a href="file:///C:/Users/91984/Desktop/website/events.html">Next</a></li>  
+  </ul>  
+</div>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+<footer style="background-color: #cc66cc; width: 100%; text-align: center;">
+	<p>©<strong>Copyright lackshanap </strong></p>
+   </footer>
+   </body>
+   </html>

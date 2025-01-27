@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>ABOUT</title>
+<style>
+img{
+float:right;
+position:fixed;
+top:100px;
+right:120px;
+}
+</style>
+</head>
+<body>
+<header style="background-color:#000000; height: 80px;width: 100%">
+<h1 style="font-size: 30px; color: white;text-align: center; padding-top: 15px;">ABOUT</h1>
+</header>
+<section style="background-color:#ffffcc; height:600px; width: 100%; border: 1px solid black;">
+  	<h2>overview</h2>
+  	<p>NAME          : Lackshana</p>
+	<p>DOB           : 01.10.2004</P>
+	<p>EDUCATION     : B.E ECE</P>
+	<P>LANGUAGE      : English,Tamil</p>
+	<p>FATHER        : Palanisamy</p>
+	<p>MOTHER        : Poongodi</P>
+	<p>NATIVE        : Erode</p>
+	<p>SOFT SKILL    :Communication,leadership</p>
+	<P>ACHIEVEMENT   :Green belt in taekwondo</p>
+	<p>RELATIONSHIP STATUS:Single</P>
+	<img src="C:\Users\Administrator\Desktop\web development\images\resume.jpg" width="400" height="520"  alt="resume";>
+<a href="https://example.com/">
+<video width="300" height="250" fullscreen="false" webkit-playsinline controls autoplay muted poster="http://example.com/thumbnail.gif">
+<source src="https://tpc.googlesyndication.com/simgad/13245846572406944962" type="video/mp4">
+</video>
+</a>
+	</section>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+    
+</head>  
+<body>  
+  
+<div class="container">                
+  <ul class="pager">  
+    <li><a href="">Previous</a></li>  
+    <li><a href="file:///C:/Users/91984/Desktop/website/gallery.html">Next</a></li>  
+  </ul>  
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+	<footer style="background-color: #cc66cc; width: 100%; text-align: center;">
+	<p>©<strong>Copyright lackshanap </strong></p>
+   </footer>
+</body>
+</html>

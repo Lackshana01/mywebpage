@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>EVENTS</title>
+</head>
+<body>
+<style>
+.box{
+outline-color:black;
+online-width:10px;
+margin:110px;
+float:center;
+border:2px light blue;
+padding:50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+
+<header style="background-color:#000000; height: 80px;width: 100%">
+<h1 style="font-size: 30px; color: white;text-align: center; padding-top: 15px;">EVENTS</h1>
+</header>
+<section style="background-color:#ffffff; width: 100%; border: 1px solid black;">
+
+<div class="box"style=outline-style:dashed;"><b>Joined SNS College of Technology in 2022 as B.E ECE student.The beginning is always today. Mary Wollstonecraft Shelley. “Life is about change, sometimes it's painful, sometimes it's beautiful, but most of the time it's both.” Kristin Kreuk. "Never underestimate the power you have to take your life in a new direction." Germany Kent. “All we can do is our best.</b></div>
+<img src="C:\Users\Administrator\Desktop\web development\images\23.jpg" class="center" width="400"  height="520"  alt="23";>
+<div class="box"style=outline-style:dashed;"><b>Celeration of pongal festival as snsian.</b></div>
+<img src="C:\Users\Administrator\Desktop\web development\images\19.jpg" class="center" width="400" height="520"  alt="19";>
+
+<div class="box"style=outline-style:dashed;"><b>On Valentine's Day you show your love for another person by sending cards, gifts and messages of love. 
+Couples give cards or presents to each other, but you can also send something anonymously to someone you secretly love.So it also means lovin g our friends </b></div>
+<img src="C:\Users\Administrator\Desktop\web development\images\11.jpg" class ="center" width="400" height="520"  alt="11";>
+
+<div class="box"style=outline-style:dashed;"><b>Trip to Kochin and Vagamon.Vagamon famous for its waterfalls, lush green hills and natural beauty.Vagamon can be visited throughout the year, however, the best time to visit Vagamon would be during the dry seasons such as summers (March to June) and winter (October to March). The months from June to September experience the monsoon spell. The heavy rainfall during this season makes travelling arduous.</b></div>
+<img src="C:\Users\Administrator\Desktop\web development\images\22.jpg" class="center" width="400" height="520"  alt="22";>
+
+<div class="box"style=outline-style:dashed;"><b>Pongal celebration is seen as the traditional festival of Tamil Nadu.Pongal 2024: The festival of Pongal will begin on January 15 and end on January 18, 2024. It is celebrated for four days in Tamil Nadu and is significant for Tamilians. This month, known as Thai month, is considered auspicious for various religious</b></div>
+<img src="C:\Users\Administrator\Desktop\web development\images\24.jpg" class="center" width="400" height="520"  alt="24";>
+</section>
+
+<footer style="background-color: #cc66cc; width: 100%; text-align: center;">
+	<p>©<strong>Copyright lackshanap </strong></p>
+   </footer>
+   </body>
+   </html>
+   

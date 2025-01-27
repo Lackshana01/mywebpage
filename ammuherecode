@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>First Webpage</title>
+  </head>
+ <body>
+    <header style="background-color: #303030; height: 100px;width: 100%">
+	<h1 style="font-size: 30px; color: white;text-align: center; padding-top: 15px;">AMMU WEBPAGE</h1>
+   
+   <style>
+   li{  display: inline-block;padding: 10px}
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+   </style>
+	<nav style="background-color: #1FEBE2;">
+		<ul>
+		
+			<li><a href="#">HOME</a></li>
+			<li><a href="C:\Users\91984\Desktop\website\about.html">ABOUT</a></li>
+			<li><a href="C:\Users\91984\Desktop\website\gallery.html">GALLERY</a></li>
+			<li><a href="file:///C:/Users/91984/Desktop/website/events.html">EVENTS</a></li>
+		<li style="float:right;padding top:15px;"> <input type="text" placeholder="Search.."></li>
+ <div class="topnav">
+</div>
+</ul>
+	</nav>
+</header>
+<article style="width:device-width; border:2px solid black;height:1300px; background-color: #fff0f5;">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="C:\Users\Administrator\Desktop\web development\images\16.jpg" width="1000" height="520" alt="16;">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="C:\Users\Administrator\Desktop\web development\images\4.jpg" width="1000" height="520" alt="4;">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="C:\Users\Administrator\Desktop\web development\images\25.jpg" width="1000" height="520" alt="25;">
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+	
+	<h2 style="font-size:20px;color:blue;text-align:left;padding-bottom:20px;"><u>ABOUT</u></h2>
+	<p>“Hi, I am Lackshana P, a B.E ECE student studying in SNS college of technology. I have been living in gobichettipalayam since I was born and brought up here.
+
+My father is a TNSTC driver, and my mother is a house wife.I am the only daughter for my parents. 
+
+In the past few months, I have enrolled myself in attending full stack development class. I believe that I gained some codes to create a web page.
+
+Other than my studies, I love to listen to songs and interested in web developing.”</p>
+	<img src="C:\Users\Administrator\Desktop\web development\images\3.jpg" width="600" height="500" alt="3;"><img src="C:\Users\Administrator\Desktop\web development\images\7.jpg" style="float:right" width="400" height="500" alt="7;"><img src="C:\Users\Administrator\Desktop\web development\images\2.jpg" style="float:center" width="500" height="500" alt="2;">
+	<p>Human nature includes the core characteristics shared by all people
+	We all have different experiences of the humans in our life, and this is where the disputes begin
+	Some people will tell you humans are 'good' or 'bad', or 'predators' or 'capable of great kindness'</p>
+	</article>
+	 <title>Bootstrap Pager Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">  
+    
+</head>  
+<body>  
+  
+<div class="container">                
+  <ul class="pager">  
+    <li><a href="">Previous</a></li>  
+    <li><a href="C:\Users\91984\Desktop\website\about.html">Next</a></li>  
+  </ul>  
+</div>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+  <title>footer</title>
+   <footer style="background-color: #cc66cc; width: 100%; text-align: center;">
+	<p>©<strong>Copyright lackshanap </strong></p>
+   </footer>
+  
+ </body>
+</html>
+
+ 
