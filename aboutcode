@@ -27,10 +27,7 @@ right:120px;
 	<P>ACHIEVEMENT   :Green belt in taekwondo</p>
 	<p>RELATIONSHIP STATUS:Single</P>
 	<img src="C:\Users\Administrator\Desktop\web development\images\resume.jpg" width="400" height="520"  alt="resume";>
-<a href="https://example.com/">
-<video width="300" height="250" fullscreen="false" webkit-playsinline controls autoplay muted poster="http://example.com/thumbnail.gif">
-<source src="https://tpc.googlesyndication.com/simgad/13245846572406944962" type="video/mp4">
-</video>
+
 </a>
 	</section>
   <meta charset="utf-8">  
